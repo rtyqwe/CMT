@@ -1,3 +1,6 @@
+http://cs143.seas.ucla.edu:8080/cs143wch/login.html
+(UCLA VPN needed)
+
 me: Ryan Wan Man Chan
 Partner's Name: Jen-Hung Lo
 
