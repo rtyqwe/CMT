@@ -1,0 +1,26 @@
+<html> 
+<head> <title>Edit account information</title> </head> 
+<body align="center" bgcolor=white> 
+<h1 >Edit account information</h1> 
+<p><h4></h4><p>
+<!-- form tag --> 
+<p><a href="login.html">Re-login.</a></p>
+<form method=post action=servlet/Login>
+<!-- submit button --> 
+ <p>Existing Email (cannot be changed): <input type="text" name="log_email"></p>
+ <p>Existing password: <input type="password" name="old_password"></p>
+ <p>New password: <input type ="password" name = "new_password"></p>
+ <p>Re-type New password: <input type ="password" name = "re_new_password"></p>
+ <p>First name: <input type="text" name="first_name"></p>
+  <p>Middle name: <input type="text" name="middle_name"></p>
+  <p>Last name: <input type="text" name="last_name"></p>
+   <p>Affiliation: <input type="text" name="affiliation"></p>
+
+    <input type = "hidden" name="update" value = "true">
+<p><input type="submit" value="Update">
+</form>
+
+
+</body> 
+</html>
+
